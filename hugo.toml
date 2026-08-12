@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://popovstefan.github.io/stefan-coder/"
 title = "Stefan Popov / Стефан Попов"
 theme = "hugo-coder"
 languagecode = "en"
@@ -26,10 +26,9 @@ style = "github-dark"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
-
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  favicon = "favicon.ico"
+  favicon_32 = "favicon-32x32.png"
+  favicon_16 = "favicon-16x16.png"
 
   since = 2026
 
