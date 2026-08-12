@@ -15,6 +15,10 @@ shortname = "yourdiscussshortname"
 [markup.highlight]
 style = "github-dark"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   author = "Stefan Popov"
   info = "Machine-Learning Engineer"
