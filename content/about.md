@@ -4,11 +4,8 @@ description = "About Stefan Popov"
 date = "2026-08-01"
 +++
 
+I'm a machine-learning engineer at *Sportradar d.o.o.* in Ljubljana, working in sports media and entertainment. My current focus is **natural language processing** and **vector databases**.
 
-Machine-learning engineer at *Sportradar d.o.o. (SI)*, working in sports media and entertainment. My work currently focuses on **natural language processing**, and **vector databases**.
+I hold an *M. Sc.* from the *Jožef Stefan Institute* in Slovenia and a *B. Sc.* from the *Faculty of Computer Science and Engineering at Ss. Cyril and Methodius University* in Skopje, North Macedonia.
 
-
-Previously, I've served as a teaching instructor for the data science academies at *Brainster d.o.o. (MK)*, as a research assistant at the *Jožef Stefan Institute (SI)*, and as an undergraduate teaching assistant at the *Faculty of Computer Science and Engineering at Ss. Cyril and Methodius University in Skopje (MK)*. I have also completed a professional training in software engineering at *Sorsix d.o.o. (MK)*. 
-
-
-My academic background includes a *M. Sc.* from the *Jožef Stefan Institute* in *Slovenia*, and a *B. Sc.* from the *Faculty of Computer Science and Engineering at Ss. Cyril and Methodius University* in *Skopje, North Macedonia*.
+For a full work and education history, see [Experience]({{< relref "experience.md" >}}).
