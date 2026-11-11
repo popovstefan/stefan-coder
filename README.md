@@ -1,6 +1,6 @@
 # stefan-coder
 
-Personal website and blog for [Stefan Popov](https://github.com/popovstefan).
+Personal website for [Stefan Popov](https://github.com/popovstefan).
 
 Built with [Hugo](https://gohugo.io/) and the [hugo-coder](https://github.com/luizdepra/hugo-coder) theme. Deployed automatically to GitHub Pages on every push to `main`.
 
@@ -17,15 +17,7 @@ hugo server -D
 
 Open http://localhost:1313/stefan-coder/
 
-## Publishing a blog post
-
-Create a new file in `content/posts/` or scaffold one:
-
-```bash
-hugo new posts/my-post-title.md
-```
-
-Set `draft = false` in the front matter when ready to publish, then push to `main`.
+The site is a landing page plus [About](content/about.md) and [Experience](content/experience.md).
 
 ## Deployment
 

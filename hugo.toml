@@ -3,10 +3,9 @@ title = "Stefan Popov / Стефан Попов"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
+disableKinds = ["RSS", "taxonomy", "term"]
 
-
-[pagination]
-pagerSize = 20
+[taxonomies]
 
 [markup.highlight]
 style = "github-dark"
@@ -19,7 +18,7 @@ style = "github-dark"
   author = "Stefan Popov"
   info = "Machine-Learning Engineer"
   description = "Stefan Popov's personal website"
-  keywords = "blog,developer,personal"
+  keywords = "developer,personal"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
   favicon = "favicon.ico"
@@ -37,12 +36,6 @@ style = "github-dark"
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
-
 # Social links
 [[params.social]]
   name = "Github"
@@ -52,26 +45,15 @@ style = "github-dark"
 [[params.social]]
   name = "LinkedIn"
   icon = "fa-brands fa-linkedin fa-2x"
-  weight = 3
+  weight = 2
   url = "https://www.linkedin.com/in/popovstefan/"
-[[params.social]]
-  name = "RSS"
-  icon = "fa-solid fa-rss fa-2x"
-  weight = 4
-  url = "index.xml"
-  rel = "alternate"
-  type = "application/rss+xml"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "About"
   weight = 1
-  url  = "posts/"
+  url = "about/"
 [[menu.main]]
   name = "Experience"
   weight = 2
   url  = "experience/"
-[[menu.main]]
-  name = "About"
-  weight = 3
-  url = "about/"
